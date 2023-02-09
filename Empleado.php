@@ -7,10 +7,10 @@
 
         //Contructor
 
-        public function Empleado($cargo, $identificacion, $nombre){
-            $this->cargo = $cargo;
+        public function Empleado($identificacion, $nombre, $cargo){
             $this->identificacion = $identificacion;
             $this->nombre = $nombre;
+            $this->cargo = $cargo;
         }
 
         protected function getCargo(){

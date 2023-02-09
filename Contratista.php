@@ -4,7 +4,7 @@
         private $valorHora;
 
         //Contructor
-        public function Contratista($cargo, $identificacion, $nombre) {
+        public function Contratista($identificacion, $nombre, $cargo) {
             //ejecutamos el constructor de la clase Padre Empleado
             parent::__construct($cargo,$identificacion,$nombre);
         }
